@@ -1,0 +1,17 @@
+ul.horizontal-list {
+    list-style: none;
+    text-align: center;
+    margin: 3rem 0;
+
+    li {
+        display: inline;
+        padding: 0 2.2rem;
+        font-size: 1.3rem;
+
+        &:hover {
+            color: gray;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #DD6030;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.bookshelf {
+    margin: 0 10rem;
+
+    .bookshelf-title {
+        font-weight: normal;
+        font-size: 2rem;
+        margin: 5rem 0;
+    }
+
+    .bookshelf-books {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
